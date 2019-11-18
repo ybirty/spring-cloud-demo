@@ -17,4 +17,5 @@ hystrix:
       execution:
         isolation:
           strategy: SEMAPHORE
-sso_server_url: /SSO-SERVER/sso/toLogin
+gateway_url: localhost:9000/
+sso_server_url: ${gateway_url}SSO-SERVER/sso/toLogin
