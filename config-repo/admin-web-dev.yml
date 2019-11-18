@@ -7,4 +7,3 @@ hystrix:
       execution:
         isolation:
           strategy: SEMAPHORE
-sso_server_url: /SSO-SERVER/sso/toLogin
