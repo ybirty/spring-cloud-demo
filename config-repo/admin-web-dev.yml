@@ -1,0 +1,12 @@
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+
+gateway_url: http://localhost:9000/
+sso_server_url: ${gateway_url}SSO-SERVER/sso/toLogin
