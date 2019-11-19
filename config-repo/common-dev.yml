@@ -8,14 +8,6 @@ spring:
         max-idle: 10
         max-wait: 10000
     timeout: 5000
-feign:
-  hystrix:
-    enabled: true
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          strategy: SEMAPHORE
+
 gateway_url: localhost:9000/
 sso_server_url: ${gateway_url}SSO-SERVER/sso/toLogin
