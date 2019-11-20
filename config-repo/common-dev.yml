@@ -8,6 +8,9 @@ spring:
         max-idle: 10
         max-wait: 10000
     timeout: 5000
+user:
+  name: user
+  password: 123456
 
 gateway_url: http://localhost:9000/
 sso_server_url: ${gateway_url}SSO-SERVER/sso/toLogin
